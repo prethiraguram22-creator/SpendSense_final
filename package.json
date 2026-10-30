@@ -1,0 +1,17 @@
+{
+  "name": "spendsense-redesigned",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix project run dev",
+    "dev:server": "npm --prefix server run dev",
+    "start:server": "npm --prefix server start",
+    "test:server": "npm --prefix server test",
+    "build": "npm --prefix project run build",
+    "preview": "npm --prefix project run preview",
+    "typecheck": "npm --prefix project run typecheck",
+    "lint": "npm --prefix project run lint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0"
+  }
+}
